@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto-regular;
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-black;
+    src: url(../fonts/roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: roboto-thin;
+    src: url(../fonts/roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+section{
+    width: 100%;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    padding: 10px 5%;
+    justify-content: center;
+}
+
+.header-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.header-item nav ul{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+.header-item nav ul li{
+    margin: 0 30px;
+}
+.header-item nav ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../image/education-4796952_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
+    padding: 0 80px;   
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    border: 2px #000;
+    width: 15%;
+    min-width: 160px;
+
+}
+.box h2{
+    text-align: center;
+    
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.p1{
+    padding: 100px 20px;
+}
+.p12{
+    padding: 100px 200px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card .box{
+    width: 30%;
+    align-self: center;
+    padding: 20px 0;
+    border: #000;
+    background-color: aqua;
+    
+}
+
+.card .box .image-box img{
+   max-width: 300px; 
+   min-width: 250px;
+   width: 300px;
+   border-radius: 25px;
+}
+
+.card .box .image-box{
+    display: flex;
+    justify-content: center;  
+}
+.description h1{
+    text-align: center;
+    margin: 20px;
+}
+.description{
+    background-color: #E4CECA;
+}
+.description .description-box{
+   width: 45%; 
+   background: url(../image/pexels-jorge-acre-239933086-13755865.jpg);
+   height: 50vh;
+   background-size: cover;
+   background-position: center;
+   padding: 50px;
+   color: #fff;
+   border-radius: 10px;
+}
+.description .description-box1{
+   width: 45%; 
+   background: url(../image/student-849825_1280.jpg);
+   height: 50vh;
+   background-size: cover;
+   background-position: center;
+   padding: 50px;
+   color: #fff;
+   border-radius: 10px;
+}
+.description-button{
+    color: #fff;
+    padding: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 5px;
+}
+.description .picture{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form form label{
+    font-size: 20px;
+    color: #fff;
+}
+.form {
+    background-image: url(../image/workspace-1280538_1280.jpg);
+}
+.form form input{
+    padding: 20px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    width: 400px;
+    border-radius: 5px;
+}
+.form form input::placeholder{
+    color: #fff;
+}
+
+.form div{
+    justify-content: center;
+    display: flex;   
+}
+
+.footer .grid{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer{
+    justify-content: center;
+}
+
+.footer .grid .grid-class{
+    display: flex;
+    flex-direction: column;
+}
+
